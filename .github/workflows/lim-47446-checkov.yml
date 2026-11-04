@@ -3,7 +3,6 @@ name: LIM-47446 Checkov line 0 check
 on:
   pull_request:
 
-permissions: write-all
 
 jobs:
   build:
