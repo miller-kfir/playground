@@ -2,7 +2,10 @@ name: LIM-47446 Checkov line 0 check
 
 on:
   pull_request:
-
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: string
 
 jobs:
   build:
