@@ -1,0 +1,17 @@
+name: LIM-46535 acceptance fixture 2
+
+# Test fixture for an Apiiro PR scan. Manual trigger only, so it never runs on its own.
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: string
+
+permissions: write-all
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "LIM-46535 acceptance fixture 2"
