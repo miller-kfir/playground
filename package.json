@@ -1,0 +1,10 @@
+{
+  "name": "lim-46535-acceptance-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test fixture for an Apiiro pre-commit and PR scan. Never installed or published.",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "minimist": "0.0.8"
+  }
+}
